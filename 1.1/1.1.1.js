@@ -1,3 +1,6 @@
+//Data types & operators. Objects and functions
+//=======================================
+
 //The array contains the products 
 let products = [];
 
@@ -167,17 +170,7 @@ let sortProducts = function(products,sortRule){
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
+//---------------------------------------------------Testing---------------------------------------------------
 
 let p1 = new Product(
     "2", //id
@@ -218,13 +211,7 @@ p1.addReview(
 );
 
 
-
-
-
-
-
-
-
+//-------------------
 
 
 let p2 = new Product(

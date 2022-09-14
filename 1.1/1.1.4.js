@@ -1,3 +1,6 @@
+//OOP в Javascript
+//=======================================
+
 function AbstractProduct ({key,name,description,price,amountProduct,reviews,image,date,brand}) {
         this.key = key;
         this.name = name;
@@ -191,7 +194,7 @@ let sortProducts = function(products,sortRule){
 }
 
 
-//-----------------------------------------------------------------------------------------------------------------
+//---------------------------------------------------Testing---------------------------------------------------
 
 
 const p1 = new Clothes({

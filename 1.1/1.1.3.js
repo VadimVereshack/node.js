@@ -36,16 +36,18 @@ let Validator = function(){
 
 let a = new Validator();
 
-console.log("Почта");
-console.log(a.validateEmail("fi@secondpart.end"));
-console.log(a.validateEmail("first-part@.se=cond%p.art.end"));
-console.log(a.validateEmail("first.part@se=cond%part.r"));
-console.log("--------------------");
-console.log(a.validateEmail("f@secondart.end,"));
-console.log(a.validateEmail("first-part@.se=cond@part.end"));
-console.log(a.validateEmail("-firstpart@.se=cond%.enddeded"));
-console.log(a.validateEmail("firs_tpart@.se.en"));
-console.log(a.validateEmail("firstpart@.se.enddeded"));
+//---------------------------------------------------Testing---------------------------------------------------
+
+// console.log("Почта");
+// console.log(a.validateEmail("fi@secondpart.end"));
+// console.log(a.validateEmail("first-part@.se=cond%p.art.end"));
+// console.log(a.validateEmail("first.part@se=cond%part.r"));
+// console.log("--------------------");
+// console.log(a.validateEmail("f@secondart.end,"));
+// console.log(a.validateEmail("first-part@.se=cond@part.end"));
+// console.log(a.validateEmail("-firstpart@.se=cond%.enddeded"));
+// console.log(a.validateEmail("firs_tpart@.se.en"));
+// console.log(a.validateEmail("firstpart@.se.enddeded"));
 
 
 // console.log("ПАроль!");
@@ -71,7 +73,6 @@ console.log(a.validateEmail("firstpart@.se.enddeded"));
 // console.log(a.validatePassword("cool_pass"));
 // console.log(a.validatePassword("coolpass"));
 // console.log(a.validatePassword("C00l"));
-
 
 
 // console.log("Телефон!");
